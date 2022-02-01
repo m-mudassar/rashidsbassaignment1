@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: SFProDisplay-Bold;
+    src: url(../fonts/SFProDisplay-Bold.ttf);
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Global styles */
+
+body {
+    height: 100%;
+}
+
+.container {
+    background-color: #F0F2F5;
+    position: relative;
+    width: 100%;
+}
+
+.hero {
+    margin-top: 150px;
+}
+
+/* Fb logo and Login form */
+.col1 {
+    float: left;
+    width: 50%;
+}
+
+.col2 {
+    float: right;
+    width: 50%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.form-div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 360px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=submit] {
+    outline: none;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 330px;
+    border: 0.2px solid #dddfe2;
+    margin-bottom: 13px;
+}
+
+input[type=text]::placeholder {
+    color: #90949C;
+}
+
+input[type=text]:focus::placeholder {
+    color: #BECEE0;
+}
+
+input[type=text]:focus {
+    border: 0.2px solid #1877f2;
+}
+
+input[type=submit] {
+    background-color: #1877f2;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 48px;
+    border: none;
+    font-size: 20px;
+    padding: 0 20px;
+    width: 365px;
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+
+.create-account-button {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 17px;
+    border: none;
+    line-height: 48px;
+    border-radius: 6px;
+    background-color: #57b445;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.create-account-button:hover {
+    background-color: #42b72a;
+}
+
+.forgot-password {
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+hr {
+    height: 1px;
+    background-color: #dadde1;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.create-page {
+    color: black;
+    line-height: 1.34;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.create-page-div {
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.create-page:hover {
+    text-decoration: underline;
+}
+
+.logo-div {
+    margin-top: 40px;
+    width: auto;
+    margin-left: 20%;
+}
+
+.salogan {
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+logo {
+    height: 106px;
+}
+
+/* Blur Effect */
+
+.blur {
+    position: absolute;
+    background: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: 100%;
+}
+
+/* Sign up div */
+.sign-up-div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 460px;
+    border-radius: 15px;
+    position: absolute;
+    background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-up-content {
+    margin-left: 10px;
+}
+
+.sign-up-content h1 {
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.sign-up-content h4 {
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: normal;
+
+}
+
+.sign-up-form-content {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+input[general="style"] {
+    padding: 11px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    margin: 0;
+    background-color: #F5F6F7;
+    border: 1px solid #ccd0d5;
+}
+
+input[name="first-name"],
+input[name="sur-name"] {
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+input[name="sur-name"] {
+    margin-left: 20px;
+}
+
+.surname {
+    width: 500px;
+}
+
+input[name="mailORmobile"] {
+    margin-bottom: 10px;
+    width: 390px;
+}
+
+input[name="password"] {
+    margin-bottom: 10px;
+    width: 390px;
+}
+
+.date-of-birth {
+    margin-top: 2px;
+}
+
+.date {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    background-image: url(./images/arrow.png);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+    width: 125px;
+    border: 1px solid #ccd0d5;
+}
+
+.month,
+.year {
+    margin-left: 15px;
+}
+
+.gender span label {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    width: 82px;
+    padding: 0 25px 0 10px;
+    font-weight: normal;
+    text-align: left;
+
+}
+
+.gender {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.gender-text {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.gender span {
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.male {
+    margin-left: 18px;
+}
+
+.custom {
+    margin-left: 19px;
+}
+
+input[btn=sign-up]{
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    width: 194px;
+}
+

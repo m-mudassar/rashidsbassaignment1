@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts used */
+
+@font-face {
+    font-family: palatino-linotype-italic;
+    src: url(./fonts/palai.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(./fonts/montserrat-semibold.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+/* Navbar */
+nav{
+    padding: 50px 80px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding-left: 40px;
+
+}
+
+.menu ul li a{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(45deg, rgba(237, 27, 51, 0.9), rgba(68, 46, 130, 0.9)), url(./images/heroImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1120px;
+    position: relative;
+}
+
+.hero-text {
+    padding-top: 10%;
+    padding-left: 13%;
+}
+
+.man-image {
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+}
+
+button {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    background-color: #f42267;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 200px;
+    width: 200px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.button {
+    box-shadow: 0px 10px 0px #ff5990;
+    border-radius: 15px;
+
+}
+
+.btn-div {
+    text-align: center;
+    width: 38%;
+    margin-top: 75px;
+}
+
+.read-more-btn {
+    background-color: rgba(119, 51, 145, 0.8);
+}
+
+.salogan {
+    font-family: 'palatino-linotype-italic', sans-serif;
+    color: #ffffff;
+    font-size: 57px;
+    font-weight: normal;
+}
+
+.motive {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #ffffff;
+    font-size: 86px;
+    padding-top: 30px;
+}
+
+.description {
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 55px;
+}
+
+
+/* About Section */
+
+.second-section {
+    height: 1180px;
+    background-image: url(./images/world-map.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.about {
+    height: 660px;
+}
+
+.about-content {
+    float: left;
+    width: 50%;
+    margin-top: 105px;
+}
+
+.about-image {
+    padding: 100px 0;
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-salogan {
+    margin-left: 17%;
+    color: #484848;
+    font-family: 'palatino-linotype-italic', sans-serif;
+    font-size: 44px;
+    font-weight: lighter;
+
+}
+
+.about-motive {
+    margin-left: 17%;
+    color: #484848;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 67px;
+    margin-top: 30px;
+}
+
+.about-tabs ul {
+    margin-left: 17%;
+    list-style-type: none;
+    margin-top: 52px;
+}
+
+.about-tabs ul li {
+    float: left;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 17px;
+    margin-left: 56px;
+    padding-top: 17px;
+    text-transform: uppercase;
+}
+
+.about-tabs ul li button {
+    text-transform: uppercase;
+}
+
+.about-tabs ul li:first-child {
+    margin-left: 0px;
+}
+
+.about-tabs ul li:last-child {
+    padding-top: 0px;
+}
+
+.about-para {
+    font-family: 'Montserrat-Regular', sans-serif;
+    padding-top: 30px;
+    margin-left: 17%;
+    clear: both;
+    font-size: 18px;
+    color: #1d1d1d;
+}
+
+.about-button-div {
+    clear: both;
+    margin-left: 17%;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.about-button {
+    clear: both;
+    margin-top: 10px;
+}
+
+/* Achievements Section */
+
+.flex-container {
+    margin-top: 120px;
+    width: 100%;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    height: 620px;
+}
+
+.flex-container div {
+    margin-top: 120px;
+    display: flex;
+    width: 33.3%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #40286a;
+}
+
+
+.flex-container div h1 {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 67px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.flex-container .acheievement-salogan {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 32px;
+    font-size: 40px;
+}
+
+.flex-container .achievement-description {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 50px;
+    margin-top: 40px;
+}
+
+.flex-container .achievement-first-col {
+    background: #4b2d7f;
+}
+
+.flex-container .achievement-third-col {
+    background: #4b2d7f;
+}
