@@ -21,6 +21,7 @@
 }
 
 /* Navbar */
+
 nav{
     padding: 50px 80px;
 }
@@ -53,6 +54,7 @@ nav{
 }
 
 /* Hero section */
+
 .hero {
     background: linear-gradient(45deg, rgba(237, 27, 51, 0.9), rgba(68, 46, 130, 0.9)), url(./images/heroImage.png);
     background-repeat: no-repeat;
