@@ -90,23 +90,30 @@
             placeholder="First name"
             oninput="validateFirstName()"
           />
+          <span class="tooltiptextright sur-name-tooltip">Enter your name?</span>
           <input
             type="text"
             id="surName"
+            class="sur-name"
             name="sur-name"
             general="style"
             class="input-styling"
             placeholder="Surname"
+            oninput="validateSurName()"
           />
         </div>
+        <span class="tooltiptextleft mobile-num-tooltip">You'll use this when <br> you log in and if you <br> ever need to reset <br> your password.</span>
         <input
           type="text"
           name="mailORmobile"
           general="style"
           id="mailORmobile"
-          class="mail input-styling"
+          class="mail input-styling mobile-num"
           placeholder="Mobile number or email address"
+          oninput="validateMobileNo()"
         />
+
+        <span class="tooltiptextleft password-tooltip">Enter a combination <br> of at least six <br> numbers, letters and <br> punctuation marks <br> (such as ! and &).</span>
         <input
           type="text"
           name="password"
@@ -114,6 +121,7 @@
           id="password"
           class="password input-styling"
           placeholder="New Password"
+          oninput="validatePassword()"
         />
         <p class="date-of-birth">Date of birth?</p>
         <select name="date" id="date" class="date">
@@ -201,7 +209,7 @@
           any time.</span
         >
 
-        <input type="submit" btn="sign-up" value="Sign Up" />
+        <input type="submit" btn="sign-up" value="Sign Up" onclick="validateForm()" />
       </div>
     </div>
 
