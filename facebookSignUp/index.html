@@ -78,14 +78,15 @@
       <hr />
       
       <div class="sign-up-form-content">
+        <span class="tooltiptextleft first-name-tooltip">Enter your name?</span>
+        <span class="first-name-warning"></span>
         <div class="name">
-            <span class="tooltiptext">Enter your name?</span>  <input
+            <input 
             type="text"
             id="firstName"
-            class="first-name tooltip"
             name="first-name"
             general="style"
-            class="input-styling"
+            class="input-styling first-name"
             placeholder="First name"
             oninput="validateFirstName()"
           />
@@ -204,6 +205,8 @@
       </div>
     </div>
 
+    
+    
     <script src="./script.js"></script>
   </body>
 </html>

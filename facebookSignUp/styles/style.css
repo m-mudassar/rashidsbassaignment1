@@ -319,13 +319,9 @@ input[btn="sign-up"] {
 
 /* Tooltip */
 
-.tooltip {
-  position: relative;
-}
-
-.tooltiptext {
+.tooltiptextleft {
   margin-top: 30%;
-  margin-left: 50%;
+  margin-right: -13%;
   width: 120px;
   background-color: #be4b49;
   color: #fff;
@@ -338,7 +334,7 @@ input[btn="sign-up"] {
   right: 110%;
 }
 
-.tooltiptext::after {
+.tooltiptextleft::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -347,4 +343,9 @@ input[btn="sign-up"] {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent transparent #be4b49;
+}
+
+
+.first-name-tooltip{
+  display: none;
 }
